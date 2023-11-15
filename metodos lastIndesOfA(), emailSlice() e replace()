@@ -1,0 +1,32 @@
+<!--Métodos Comuns de Strings-->
+  <!--Criar no app.js a const-->
+
+´´´js
+	const email = ‘laracroft@canalnivel14.com.br’ //este é o “a” que o método chama
+
+//Método lastIndexOfA()
+  const lastIndexOfA = email.lastIndexOfA(‘a’);
+
+//Traz o Index da última ocorrência, a contagem inicia do 0, como nas arrys
+	console.log(lastIndexOfA)
+	
+//Método emailSlice()
+  const emailSlice = email.slice(0, 9);
+  console.log(emailSlice);
+//este método retorna dois parâmetros, no caso, uma parte de uma string
+//onde define de posição ‘a’ para posição ‘b’
+//Caso quiser trazer toda a sentença, pode-se fazer assim
+  const emailSlice = email.slice(0, 9);
+  console.log(emailSlice, email);
+
+//O retorna serão as duas sentenças 
+  Método replace()
+  const emailReplace = email.replace(‘l’, ‘y’)
+
+//Substitui um caractere de uma string por outro, tanto letras como palavras
+console.log(emailReplace);
+
+//substituindo por palavras
+const emailReplace = email.replace(‘larissa’, ‘lara’)
+console.log(emailReplace);
+´´´
